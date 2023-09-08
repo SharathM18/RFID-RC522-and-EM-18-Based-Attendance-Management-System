@@ -1,7 +1,9 @@
 # RFID-RC522-and-EM-18-Based-Attendance-Management-System
+
 The project aims to create an RFID-based attendance system using an Arduino board, RC522 and EM-18 RFID modules, and an LCD display. Teachers use RFID cards, while students use RFID tags to mark attendance, with real-time data tracking, LED indicators, and a buzzer for card/tag detection.
 
 **Hardware Components:**
+
 - Arduino UNO
 - RFID RC522 module
 - EM-18 reader module
@@ -10,9 +12,11 @@ The project aims to create an RFID-based attendance system using an Arduino boar
 - Buzzers
 
 **Software:**
+
 - Arduino IDE
 
 **Methodology:**
+
 - RFID RC522 module used for wireless communication.
 - EM-18 reader module for detecting and reading RFID Cards.
 - RTC module for real-time information (date and time).
@@ -27,3 +31,17 @@ The project aims to create an RFID-based attendance system using an Arduino boar
 - Display student count on LCD screen.
 - Delay until the next day to prevent further data recording.
 - Buzzer beeps when a card/tag is read.
+
+Output:
+
+1. Prototype of the Proposed System
+   ![Prototype_of_the_Proposed_System](output-images/Prototype_of_the_Proposed_System.png)
+
+2. When the Read Tag is valid
+   ![When_the_Read_Tag_is_Valid](output-images/When_the_Read_Tag_is_Valid.png)
+
+3. When the Read Tag is InValid
+   ![When_the_Read_Tag_is_Invalid](output-images/When_the_Read_Tag_is_Invalid.png)
+
+4. During Off College Time
+   ![During_Off_College_Time](output-images/During_Off_College_Time.png)
